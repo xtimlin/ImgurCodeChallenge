@@ -18,13 +18,14 @@
     4. Saving the HTML page and screenshot in the output folder
     5. Write data to report if any of step from 1 to 5 occurs error
 #### “Random Mode” function: test that the random button works and takes you to a new page without errors.
-* logic
+* logic **(Not sure how you define "button", the framework will randomly select element with \<button> tag)**
     1. Select all web element on current screen which tag equal to "Button"
     2. Randomly Select One Button from step 1.
     3. Save HTML page and Screenshot(Before) 
     4. Click on the Random Button(Write to report if Button not functioning)
     5. Save HTML page and Screenshot(After)
     6. Write data to report if the button is working and ask the user to manually to compare those screenshot/HTML file.
+    
 
 ## Folder Structure
 * .idea: Rubymine IDE Project Config folder
