@@ -1,0 +1,6 @@
+Screen,Description,Automation Message,Status
+randomMode Main Screen,randomMode Main Screen  Testing Button with ID 34542280,<button type="submit" class="Searchbar-submitInput"><img class="search" src="https://s.imgur.com/desktop-assets/desktop-assets/icon-search.8d0f9b564a4659d48d8eca38b968a7f2.svg"></button>,N/A - Please Manually Validate Screen Change
+New Post,New Post Success,https://imgur.com/a/g944s72,True
+randomMode After Post,randomMode After Post  Testing Button with ID 30699580,Button Function Not Working,False
+Search Post,Saving Search result with html and screenshot,C:/Users/xtiml/Desktop/ImgurCodeChallenge/bin/../output/2019_04_01/01_19,True
+randomMode After search,randomMode After search  Testing Button with ID 30698560,Button Function Not Working,False

@@ -3,7 +3,8 @@ GEM
   specs:
     childprocess (0.9.0)
       ffi (~> 1.0, >= 1.0.11)
-    ffi (1.9.25-x64-mingw32)
+    colorize (0.8.1)
+    ffi (1.10.0-x64-mingw32)
     regexp_parser (1.3.0)
     rubyzip (1.2.2)
     selenium-webdriver (3.141.0)
@@ -19,6 +20,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  colorize (~> 0.8.1)
   watir (~> 6.14)
   watir-webdriver (~> 0.9.9)
 

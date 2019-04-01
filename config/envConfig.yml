@@ -1,0 +1,4 @@
+#Browser: 'chrome'
+Browser: 'firefox'
+
+DefaultWaitTime: 10

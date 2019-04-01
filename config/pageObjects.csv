@@ -1,0 +1,15 @@
+Screen,Description,HTML Tag,Locator Type,Locator Value,Action,Value,Wait
+Sign In,Clicking the Sign In button,a,class,Navbar-signin,click,,
+Sign In,Fill-in Username into text box,text_field,id,username,set,eval:@step['Parameter1'],
+Sign In,Fill-in Password into text box,text_field,id,password,set,eval:@step['Parameter2'],
+Sign In,Clicking the Sign In button,button,class,btn btn-action right,click,,
+Sign In,check sign in error,p,class,error,checkLoginError,,
+New Post,Navigate to Main Screen,div,class,logo-icon,click,,
+New Post,Click on New Post button,a,class,ButtonLink Button upload,click,,
+New Post,Select Local Image file to upload,file_field,id,global-files-button,set,uploadfile:@step['Parameter1'],
+New Post,Adding comment to new post image,h1,class,post-title post-contenteditable,set,eval:@step['Parameter2'],5
+New Post,Save new post URL,img,class,post-image-placeholder,saveNewPostURL,,2
+Search Post,Navigate to Main Screen,div,class,logo-icon,click,,
+Search Post,Search post in imgur,text_field,class,Searchbar-textInput,set,eval:@step['Parameter1'],
+Search Post,Click on search button,button,class,Searchbar-submitInput,click,,
+Search Post,save HTML page,,,,saveSearchPage,,

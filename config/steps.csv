@@ -1,0 +1,9 @@
+Description,Action,Run,Parameter1,Parameter2
+Open Selenium Wedriver,Open Browser,x,,
+Open URL(Parameter1) from Selenium Wbdriver,Open URL,x,https://imgur.com/,
+Testing the random button works and takes you to a new page without errors- screenshot will save with (Parameter1)_(ButtonID),Random Mode,x,randomMode Main Screen,
+New Post image with (Parameter1) file,New Post,x,photo1.png,Title for Testing
+Testing the random button works and takes you to a new page without errors- screenshot will save with (Parameter1)_(ButtonID),Random Mode,x,randomMode After Post,
+Go to main page and Search Image in imgur.com with string(Parameter2),Search Post,x,never give up,
+Testing the random button works and takes you to a new page without errors- screenshot will save with (Parameter1)_(ButtonID),Random Mode,x,randomMode After search,
+Close Selenium Wedriver,Close Browser,x,,

@@ -1,6 +1,5 @@
-require 'csv'
-require 'yaml'
-require 'watir'
-require 'selenium-webdriver'
+require '../lib/driver'
 
-p 123
+$ROOT = Dir.pwd
+driver = Driver.new
+driver.driver()
