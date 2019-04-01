@@ -63,12 +63,12 @@
 * open "envConfig.yml" under ImgurCodeChallenge\config folder.
    * Choice your preferred browser to process automation testing (chrome/firefox).
    * Save and close the file.
-* For windows user:
-  * Not Necessary to Install Ruby and Ruby Library for Pre-Requirement Section.
-  * Double click on "RunMe.bat" under ImgurCodeChallenge folder.
-* For Mac user:
-  * Install all ruby, ruby gem, and software under Pre-Requirement Section.
+* Method 1 (run from command line, work for Windows and Mac):
+  * Install all Install all ruby, ruby gem, and software under Pre-Requirement Section.
   * Then run "Ruby main.rb" command under ImgurCodeChallenge\bin folder.
+* Method 2 (run from batch + exe file, only for windows user):
+  * Double click on "RunMe.bat" under ImgurCodeChallenge folder(Not Necessary to Install Ruby and Ruby Library)
+  
 
 ## Pre-Requirement (library and Software)
 * ruby 2.4.4p296 (2018-03-28 revision 63013) [x64-mingw32]
